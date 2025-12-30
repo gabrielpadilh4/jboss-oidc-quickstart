@@ -1,9 +1,9 @@
 {
-    "client-id" : "jbeap-oidc", 
-    "provider-url" : "http://localhost:8180/auth/realms/demo", 
+    "client-id" : "jboss-oidc",
+    "provider-url" : "http://localhost:8180/realms/test-realm",
     "ssl-required" : "external", 
      "credentials" : {
         "secret" : "${mysecret}" 
      },
-     "principal-attribute": "preferred_username"
+     "principal-attribute": "email"
 }
